@@ -26,9 +26,9 @@ export async function generateMetadata() {
     'fc:frame:image': image,
     'fc:frame:image:aspect_ratio': '1:1',
   
-    'fc:frame:post_url': `${URL}/check`,
+    'fc:frame:post_url': `https://zora.co/collect/base:0xf5606b4e3f8bf0b158756ffe4c64a1ea37f77168/1`,
     'fc:frame:button:1': buttonText,
-    'fc:frame:button:1:action': 'post',
+    'fc:frame:button:1:action': 'mint',
   }
 
   return {
