@@ -28,7 +28,7 @@ export async function generateMetadata() {
   
     'fc:frame:button:1': buttonText,
     'fc:frame:button:1:action': 'mint',
-    'fc:frame:button:1:target': 'eip155:8453:0xf5606b4e3f8bf0b158756ffe4c64a1ea37f77168:1',
+    'fc:frame:button:1:target': 'eip155:8453:0x5deeee4d0ec3a7ad968529c9ae6aeb6d6930e4ff',
   }
 
   return {
