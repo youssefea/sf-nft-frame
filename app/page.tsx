@@ -2,7 +2,7 @@ export const runtime = 'edge'
 import { URL } from '../constants'
 
 const image = "https://i.imgur.com/EF7kCQW.jpeg"
-const buttonText = 'mint'
+const buttonText = 'Check your number'
 
 export default function Home() {
   return (
@@ -26,9 +26,9 @@ export async function generateMetadata() {
     'fc:frame:image': image,
     'fc:frame:image:aspect_ratio': '1:1',
   
+    'fc:frame:post_url': `${URL}/check`,
     'fc:frame:button:1': buttonText,
-    'fc:frame:button:1:action': 'mint',
-    'fc:frame:button:1:target': 'eip155:8453:0x5deeee4d0ec3a7ad968529c9ae6aeb6d6930e4ff',
+    'fc:frame:button:1:action': 'post',
   }
 
   return {
