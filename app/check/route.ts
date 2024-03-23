@@ -27,6 +27,7 @@ const _html = (img) => `
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${img}" />
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:post_url" content="https://zora.co/collect/base:0xf5606b4e3f8bf0b158756ffe4c64a1ea37f77168/1" />
     <meta name="fc:frame:button:1" content="Mint" />
     <meta name="fc:frame:button:1:action" content="mint" />
     <meta
