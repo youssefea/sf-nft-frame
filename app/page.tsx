@@ -29,6 +29,7 @@ export async function generateMetadata() {
     'fc:frame:post_url': `https://zora.co/collect/base:0xf5606b4e3f8bf0b158756ffe4c64a1ea37f77168/1`,
     'fc:frame:button:1': buttonText,
     'fc:frame:button:1:action': 'mint',
+    'fc:frame:button:1:target': 'eip155:8453:0xf5a3b6dee033ae5025e4332695931cadeb7f4d2b:1',
   }
 
   return {
