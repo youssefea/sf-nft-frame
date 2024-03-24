@@ -23,7 +23,7 @@ const finalImage = "https://i.imgur.com/2LojR00.png";
 
 image = finalImage;
 
-const flowRate = 3272450500000;
+const flowRate = 32724505000;
 
 const _html = (img, url) => `
 <!DOCTYPE html>
