@@ -43,7 +43,7 @@ export async function POST(req) {
 
   const input: CheckIsFollowingFarcasterUserInput = {
     fid: fid,
-    isFollowing: [315653],
+    isFollowing: [19661],
   };
   const { data: data1, error: error1 }: CheckIsFollowingFarcasterUserOutput =
     await checkIsFollowingFarcasterUser(input);
