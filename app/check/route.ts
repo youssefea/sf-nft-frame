@@ -19,7 +19,7 @@ init(process.env.AIRSTACK_KEY || "");
 
 let image;
 
-const finalImage = "https://i.imgur.com/2LojR00.png";
+const finalImage = "https://i.imgur.com/7w6wi22.png";
 
 image = finalImage;
 
