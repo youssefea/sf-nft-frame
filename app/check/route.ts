@@ -33,7 +33,7 @@ const _html = (img, url) => `
     <meta property="og:image" content="${img}" />
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${img}" />
-    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:post_url" content="${url}" />
     <meta property="fc:frame:button:1" content="See to Dashboard" />
     <meta property="fc:frame:button:1:action" content="link" />
@@ -53,7 +53,7 @@ const _html2=`
     <meta property="og:image" content="https://i.imgur.com/BtnPDqR.png" />
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="https://i.imgur.com/BtnPDqR.png" />
-    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
     <meta property="fc:frame:post_url" content="${URL}" />
     <meta property="fc:frame:button:1" content="Retry" />
     <meta property="fc:frame:button:1:action" content="post" />
