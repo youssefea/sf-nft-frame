@@ -26,16 +26,11 @@ query isFollowing {
 `
 
 export const walletQuery = (id) => `
-  query GetAddressesOfFarcasters {
-    Socials(
-      input: {
-        filter: { identity: { _in: ["fc_fid:${id}"] } }
-        blockchain: ethereum
-      }
-    ) {
-      Social {
-        userAssociatedAddresses
-      }
+query GetAddressesOfFarcasters {
+  Socials(input: {filter: {userId: {_eq: "${id}"}}, blockchain: ethereum}) {
+    Social {
+      userAssociatedAddresses
     }
   }
-`
+}
+`;
